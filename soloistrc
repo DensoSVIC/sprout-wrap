@@ -33,24 +33,24 @@ recipes:
 
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
-- sprout-jetbrains-editors::rubymine
 
 node_attributes:
   sprout:
     git:
       domain: pivotal.io
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: db
+          name: Douglas Blumeyer
+          email: dblumeyer@pivotal.io
+        - initials: rc
+          name: Renee Chu
+          email: rchu@pivotal.io
+        - initials: ss
+          name: Sho Shimomura
+          email: graueule@gmail.com
+        - initials: yk
+          name: Yuji Kusunose
+          email: yuuji_kusunose@denso.co.jp
       projects:
         -
           name: sprout-wrap
@@ -83,18 +83,3 @@ node_attributes:
       - watch
       - wget
       - rbenv-binstubs
-    casks:
-      - firefox
-      - flycut
-      - rowanj-gitx
-      - github-desktop
-      - google-chrome
-      - google-drive
-      - google-hangouts
-      - macvim
-      - skype
-      - textmate
-      - vagrant
-      - virtualbox
-      - xquartz
-      - xscope
