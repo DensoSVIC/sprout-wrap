@@ -9,7 +9,6 @@ recipes:
 - homebrew::install_casks
 
 # apps
-- sprout-osx-apps::iterm2
 - sprout-osx-apps::shiftit
 
 # settings
@@ -51,6 +50,12 @@ node_attributes:
         - initials: yk
           name: Yuji Kusunose
           email: yuuji_kusunose@denso.co.jp
+        - initials: gc
+          name: Gina Castillo
+          email: gcastillo@navlab.com
+        - initials: dg
+          name: David Gamboa
+          email: dgamboa@navlab.com
       projects:
         -
           name: sprout-wrap

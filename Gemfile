@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'soloist', require: false
+gem 'soloist', require: true
 
 # Temporarily lock these gems. Newer versions depend on Ruby >= 2.1.0
 # Remove this once https://github.com/mkocher/soloist/issues/39 is closed
